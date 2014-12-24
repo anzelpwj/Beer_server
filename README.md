@@ -10,23 +10,23 @@ SMTP_PASSWORD = "YYY"
 EMAIL_FROM = "ZZZ"
 
 Meanwhile, Beers.csv is a csv file (with semi-colon seperators) adhering to the following schema
-  RatingID INTEGER PRIMARY KEY, -- Just an incrementing number
-  BeerName TEXT NOT NULL,
-  Brewery TEXT NOT NULL,
-  Type TEXT, -- Referenced with Beer_taxonomy.csv
-  Origin TEXT, -- Referenced with Regions.csv
-  ABV REAL, -- In percentage
-  HowIDrank TEXT, -- Things like "bottle at desk"
-  TempIDrank TEXT,
-  Taste TEXT,
-  Aftertaste TEXT,
-  MouthFeel TEXT, -- I use position in mouth
-  Rating INTEGER, -- In range 0 to 10
-  Notes TEXT, -- Haven't really done much with this yet
-  KeepReport INTEGER DEFAULT 1, -- Haven't done anything with this yet
-  CheckManually INTEGER DEFAULT 0, -- Haven't done anything with this yet, but soon
-  WhyCheckManually TEXT, -- See above
-  Date TEXT
+- RatingID INTEGER PRIMARY KEY, -- Just an incrementing number
+- BeerName TEXT NOT NULL,
+- Brewery TEXT NOT NULL,
+- Type TEXT, -- Referenced with Beer_taxonomy.csv
+- Origin TEXT, -- Referenced with Regions.csv
+- ABV REAL, -- In percentage
+- HowIDrank TEXT, -- Things like "bottle at desk"
+- TempIDrank TEXT,
+- Taste TEXT,
+- Aftertaste TEXT,
+- MouthFeel TEXT, -- I use position in mouth
+- Rating INTEGER, -- In range 0 to 10
+- Notes TEXT, -- Haven't really done much with this yet
+- KeepReport INTEGER DEFAULT 1, -- Haven't done anything with this yet
+- CheckManually INTEGER DEFAULT 0, -- Haven't done anything with this yet, but soon
+- WhyCheckManually TEXT, -- See above
+- Date TEXT
 
 Todo:
 - I've completely ignored any sort of error handling, so that somebody else can start to use this.
