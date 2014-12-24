@@ -1,0 +1,137 @@
+Region;Country;Continent
+Alabama;US;North America
+Alaska;US;North America
+Arizona;US;North America
+Arkansas;US;North America
+California;US;North America
+Colorado;US;North America
+Connecticut;US;North America
+Delaware;US;North America
+Florida;US;North America
+Georgia;US;North America
+Hawaii;US;North America
+Idaho;US;North America
+Illinois;US;North America
+Indiana;US;North America
+Iowa;US;North America
+Kansas;US;North America
+Kentucky;US;North America
+Lousiana;US;North America
+Maine;US;North America
+Maryland;US;North America
+Massachusetts;US;North America
+Michigan;US;North America
+Minnesota;US;North America
+Mississippi;US;North America
+Missouri;US;North America
+Montana;US;North America
+Nebraska;US;North America
+Nevada;US;North America
+New Hampshire;US;North America
+New Jersey;US;North America
+New Mexico;US;North America
+New York;US;North America
+North Carolina;US;North America
+North Dakota;US;North America
+Ohio;US;North America
+Oklahoma;US;North America
+Oregon;US;North America
+Pennsylvania;US;North America
+Puerto Rico;US;North America
+Rhode Island;US;North America
+South Carolina;US;North America
+South Dakota;US;North America
+Tennessee;US;North America
+Texas;US;North America
+Utah;US;North America
+Vermont;US;North America
+Virginia;US;North America
+Washington;US;North America
+West Virginia;US;North America
+Wisconsin;US;North America
+US;US;North America
+Ontario;Canada;North America
+Quebec;Canada;North America
+Nova Scotia;Canada;North America
+New Brunswick;Canada;North America
+Manitoba;Canada;North America
+British Columbia;Canada;North America
+Prince Edward Island;Canada;North America
+Saskatchewan;Canada;North America
+Alberta;Canada;North America
+Newfoundland and Labrador;Canada;North America
+Northwest Territories;Canada;North America
+Yukon;Canada;North America
+Nunavut;Canada;North America
+Canada;Canada;North America
+Mexico;Mexico;North America
+England;UK;Europe
+Scotland;UK;Europe
+Wales;UK;Europe
+Northern Ireland;UK;Europe
+UK;UK;Europe
+Austria;Austria;Europe
+Belgium;Belgium;Europe
+Bosnia;Bosnia;Europe
+Croatia;Croatia;Europe
+Czech Republic;Czech Republic;Europe
+Denmark;Denmark;Europe
+Estonia;Estonia;Europe
+Finland;Finland;Europe
+France;France;Europe
+Germany;Germany;Europe
+Hungary;Hungary;Europe
+Ireland;Ireland;Europe
+Italy;Italy;Europe
+Kosovo;Kosovo;Europe
+Latvia;Latvia;Europe
+Lithuania;Lithuania;Europe
+Luxembourg;Luxembourg;Europe
+Netherlands;Netherlands;Europe
+Norway;Norway;Europe
+Poland;Poland;Europe
+Portugal;Portugal;Europe
+Slovakia;Slovakia;Europe
+Slovenia;Slovenia;Europe
+Spain;Spain;Europe
+Sweden;Sweden;Europe
+Switzerland;Switzerland;Europe
+Russia;Russia;Asia
+China;China;Asia
+Thailand;Thailand;Asia
+Mongolia;Mongolia;Asia
+Japan;Japan;Asia
+Morocco;Morocco;Africa
+Egypt;Egypt;Africa
+South Africa;South Africa;Africa
+Barbados;Barbados;CA/Carib
+Belize;Belize;CA/Carib
+Costa Rica;Costa Rica;CA/Carib
+Cuba;Cuba;CA/Carib
+El Salvador;El Salvador;CA/Carib
+Guatemala;Guatemala;CA/Carib
+Haiti;Haiti;CA/Carib
+Honduras;Honduras;CA/Carib
+Nicaragua;Nicaragua;CA/Carib
+Panama;Panama;CA/Carib
+Dominican Republic;Dominican Republic;CA/Carib
+Argentina;Argentina;South America
+Bolivia;Bolivia;South America
+Brazil;Brazil;South America
+Chile;Chile;South America
+Columbia;Columbia;South America
+Ecuador;Ecuador;South America
+French Guiana;French Guiana;South America
+Guyana;Guyana;South America
+Paraguay;Paraguay;South America
+Peru;Peru;South America
+Suriname;Suriname;South America
+Uruguay;Uruguay;South America
+Venezuela;Venezuela;South America
+Australia;Australia;Oceania
+Indonesia;Indonesia;Oceania
+Philippines;Philippines;Oceania
+Singapore;Singapore;Oceania
+Malaysia;Malaysia;Oceania
+New Zealand;New Zealand;Oceania
+French Polynesia;France;Oceania

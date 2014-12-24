@@ -1,0 +1,77 @@
+Type;BeerClass;AleOrLager
+Adjunct Lager;;Lager
+Altbier;;Ale
+Amber Ale;Pale;Ale
+Berliner Weissbier;Wheat;Ale
+Biere de Garde;;Ale
+Blond Beer;;Ale
+Brown Ale;;Ale
+Chocolate Stout;Stout;Ale
+Coffee Stout;Stout;Ale
+Czech Pilsner;Pilsner;Lager
+Doppelbock;Bock;Lager
+Double Pilsner;Pilsner;Lager
+Dry Stout;Stout;Ale
+Dubbel;Trappist;Ale
+Dunkel;;Lager
+Dunkelweisen;Wheat;Ale
+Eisbock;Bock;Lager
+English Bitter;Bitter;Ale
+English Porter;Stout;Ale
+English Stout;Stout;Ale
+English Strong Ale;;Ale
+Flanders Oud Bruin;Sour;Ale
+Flanders Red Ale;Sour;Ale
+Fruit Beer;Other;Other
+German Hefeweizen;Wheat;Ale
+Ginger Beer;Other;Other
+Gueze;Sour;Ale
+Hefeweizen;Wheat;Ale
+Heller Bock;Helles;Lager
+Helles Lager;Helles;Lager
+Imperial Stout;Stout;Ale
+IPA;IPA;Ale
+Kellerbier;Helles;Lager
+Lager;Lager;Lager
+Munich Dunkel;;Lager
+Munich Helles Lager;Helles;Lager
+Oatmeal Stout;Stout;Ale
+Oktoberfest/Marzen;;Lager
+Old Ale;;Ale
+Pale Ale;Pale;Ale
+Pale Lager;Pale;Lager
+Pilsner;Pilsner;Lager
+Porter;Stout;Ale
+Red Ale;Sour;Ale
+Rice Beer;Other;Other
+Saison Ale;;Ale
+Smoked Beer;Smoked;Lager
+Specialbeer;;
+Spiced Beer;;
+Strong Ale;;Ale
+Strong Dark Ale;;Ale
+Strong Pale Ale;Pale;Ale
+Sweet Stout;Stout;Ale
+Trappist;Trappist;Ale
+Tripel;Trappist;Ale
+Vienna Lager;;Lager
+Wit Beer;Wheat;Ale
+Strong Lager;;Lager
+German Pilsner;Pilsner;Lager
+Blond Ale;;Ale
+Stout;Stout;Ale
+Double IPA;IPA;Ale
+American Pale Ale;Pale;Ale
+Smoked Ale;Smoked;Ale
+Black Ale;;Ale
+Zwickelbier;Helles;Lager
+German Pilsner;Pilsner;Lager
+Euro Pilsner;Pilsner;Lager
+Export Stout;Stout;Ale
+Dortmunder;Helles;Lager
+Baltic Porter;Stout;Ale
+Scottish Ale;;Ale
+Apple Cider;Cider;Cider
+Pear Cider;Cider;Cider
+Quadrupel;Trappist;Ale
+Strong Pale Lager;Pale;Lager
