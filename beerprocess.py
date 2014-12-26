@@ -10,12 +10,14 @@ from scipy import stats
 import seaborn as sns
 import pandas as pd
 
+
 # sns.set_palette(sns.color_palette("cubehelix", 8))
 
 conn, cur = InitFromCSV(':memory:')
 
 ## Graphing methods
 def Analytics(cur,Country_thresh, Corp_thresh):
+    symbolarray = ['o', 's', '+', 'D', '*', '^']
     ratingsarray, countries, country_count = CountCountryRatings(cur,Country_thresh)
     ratingsarray_corp, corporations, corps_count = CountCorpRatings(cur,Corp_thresh)
     #
@@ -26,8 +28,10 @@ def Analytics(cur,Country_thresh, Corp_thresh):
         plt.plot(range(0,11), ratingsarray[ind,:]/country_count[ind],'o-')
     #
     plt.ylabel('Normalized quantity', fontsize=18)
-    plt.xlabel('Rating value', fontsize=18)
+    plt.xlabel('Rating', fontsize=18)
     plt.title('Country Ratings', fontsize=20)
+    plt.xticks(fontsize=16)
+    plt.yticks(fontsize=16)
     plt.legend(countries, loc=2, fontsize=16)
     plt.subplot(122)
     #
@@ -36,47 +40,84 @@ def Analytics(cur,Country_thresh, Corp_thresh):
         plt.plot(range(0,11), ratingsarray_corp[ind,:]/corps_count[ind],'o-')
 
     plt.ylabel('Normalized quantity', fontsize=18)
-    plt.xlabel('Rating value', fontsize=18)
+    plt.xlabel('Rating', fontsize=18)
     plt.title('Corp ratings', fontsize=20)
+    plt.xticks(fontsize=16)
+    plt.yticks(fontsize=16)
     plt.legend(corporations, loc=2, fontsize=16)
     plt.show()
     return 1
 
-def CountryHistogram(cur, threshhold):
-    ratingsarray, countries, country_count = CountCountryRatings(cur,threshhold)
-    #
-    for ind in range(0,len(country_count)):
-        plt.plot(range(0,11), ratingsarray[ind,:]/country_count[ind],'o-')
+def BasicHistogram(cur):
+    """
+    A routine just to check the overall spread of ratings
+    """
+    ratingsarray = BasicRatings(cur)
+    numberOfReviews = np.sum(ratingsarray)
+    plt.figure(figsize=(8, 8))
+    plt.plot(range(0,11), ratingsarray/numberOfReviews, 'o-', 
+             markersize=10)
     plt.ylabel('Normalized quantity', fontsize=18)
-    plt.xlabel('Rating value', fontsize=18)
+    plt.xlabel('Rating', fontsize=18)
+    plt.title('All Ratings', fontsize=20)
+    plt.xticks(fontsize=16)
+    plt.yticks(fontsize=16)
+    plt.show()
+
+def CountryHistogram(cur, threshhold):
+    symbolarray = ['o', 's', '+', 'D', '*', '^']
+    ratingsarray, countries, country_count = CountCountryRatings(cur,threshhold)
+    # Plotting everything in the same plot is super confusing, let's try doing
+    # Multiple plots
+    # num_subplots = np.ceil(len(country_count) / plotsplit)
+    # if num_subplots > 9:
+    #     print("Increase plotsplit")
+    #     return 1
+    plt.figure(figsize=(8, 8))
+    for ind in range(len(country_count)):
+        symbol = symbolarray[ind % len(symbolarray)]
+        plt.plot(range(11), ratingsarray[ind,:]/country_count[ind],
+                 symbol + '-', label=countries[ind], markersize=10)
+    plt.legend(loc=2, fontsize=16)
+    plt.ylabel('Normalized quantity', fontsize=18)
+    plt.xlabel('Rating', fontsize=18)
+    plt.xticks(fontsize=16)
+    plt.yticks(fontsize=16)
     plt.title('Country Ratings', fontsize=20)
-    plt.legend(countries, loc=2, fontsize=16)
     plt.show()
     return 1
 
 def CorpHistogram(cur, threshhold):
+    symbolarray = ['o', 's', '+', 'D', '*', '^']
     ratingsarray_corp, corporations, corps_count = CountCorpRatings(cur,threshhold)
-    #
+    plt.figure(figsize=(8, 8))
     for ind in range(0,len(corps_count)):
-        plt.plot(range(0,11), ratingsarray_corp[ind,:]/corps_count[ind],'o-')
+        symbol = symbolarray[ind % len(symbolarray)]
+        plt.plot(range(0,11), ratingsarray_corp[ind,:]/corps_count[ind],
+            symbol + '-', label=corporations[ind], markersize=10)
     plt.ylabel('Normalized quantity', fontsize=18)
-    plt.xlabel('Rating value', fontsize=18)
+    plt.xlabel('Rating', fontsize=18)
     plt.title('Corp Ratings', fontsize=20)
-    plt.legend(corporations, loc=2, fontsize=16)
+    plt.legend(loc=2, fontsize=16)
+    plt.xticks(fontsize=16)
+    plt.yticks(fontsize=16)
     plt.show()
     return 1
 
 def ALCHistogram(cur):
+    symbolarray = ['o', 's', '+', 'D', '*']
     ratingsarray, AleLagerCider, ALC_sum = AleLagerCiderRatings(cur)
+    plt.figure(figsize=(8, 8))
     for ind in range(0,len(ALC_sum)):
         if ALC_sum[ind] > 0:
-            plt.plot(range(0,11), ratingsarray[ind,:]/ALC_sum[ind],'o-')
-        else:
-            plt.plot(range(0,11), np.zeros(11), 'o-')
+            plt.plot(range(0,11), ratingsarray[ind,:]/ALC_sum[ind],
+                symbolarray[ind] + '-', markersize=10)
     plt.ylabel('Normalized quantity', fontsize=18)
-    plt.xlabel('Rating value', fontsize=18)
-    plt.title('Ale/Lager/Cider Ratings', fontsize=20)
+    plt.xlabel('Rating', fontsize=18)
+    plt.title('Ale vs. Lager Ratings', fontsize=20)
     plt.legend(AleLagerCider, loc=2, fontsize=16)
+    plt.xticks(fontsize=16)
+    plt.yticks(fontsize=16)
     plt.show()
     return 1
 
@@ -91,34 +132,23 @@ def StyleBar(cur, styleval, stylethresh):
     if n < 2:
         print("Too few things are rated, decrease stylethresh")
         return 1
-    style_averages = np.zeros((n))
-    style_std = np.zeros((n))
-    style_min = np.zeros((n))
-    style_max = np.zeros((n))
-    for style_ind in range(n):
-        # Make the temp list of ratings
-        fill_count = 0
-        ratingsarr = np.zeros((BeerStyle_count[style_ind]))
-        for ind in range(11):
-            num_at_rating = ratingsarray[style_ind, ind]
-            ratingsarr[fill_count:(fill_count + num_at_rating)] = ind
-            fill_count = fill_count + num_at_rating
-        style_averages[style_ind] = np.mean(ratingsarr)
-        style_std[style_ind] = np.std(ratingsarr)
-        style_min[style_ind] = min(ratingsarr)
-        style_max[style_ind] = max(ratingsarr)
+    style_averages, style_std, style_min, style_max = \
+    RatingsArrayIntoStats(ratingsarray)
     y_pos = 1.5*np.arange(len(BeerStyles))
-    plt.barh(y_pos, style_averages, xerr=style_std,align='center',alpha=0.4)
+    plt.figure(figsize=(18, 8))
+    plt.barh(y_pos, style_averages, xerr=style_std, align='center',alpha=0.4)
     plt.yticks(y_pos,BeerStyles, fontsize=16)
+    plt.xticks(fontsize=16)
     plt.xlabel('Rating', fontsize=18)
-    plt.title('Beer Style Ratings', fontsize=20)
+    plt.title(styleval + ' Style Ratings', fontsize=20)
     plt.show()
     # Make dataframe
     ratarr = np.vstack((style_averages, style_std, BeerStyle_count, 
                         style_min, style_max))
     beerstyle_df = pd.DataFrame(data=ratarr.T, index=BeerStyles,
                             columns=['Mean', 'StDev', 'Count', 'Min', 'Max'])
-    # print(beerstyle_df.to_string(float_format='{:,.2f}'.format))
+    beerstyle_df['StDev'] = beerstyle_df['StDev'].map('{:,.2f}'.format)
+    beerstyle_df['Mean'] = beerstyle_df['Mean'].map('{:,.2f}'.format)
     return beerstyle_df
 
 ## Stats methods
@@ -147,7 +177,9 @@ def ALCstats(cur):
         Lager_ratings[fill_count:(fill_count + num_at_rating)] = ind
         fill_count = fill_count + num_at_rating
     t, prob = stats.ttest_ind(Ale_ratings,Lager_ratings, equal_var=False)
-    print(ALC_df)
+    ALC_df['Mean'] = ALC_df['Mean'].map('{:,.2f}'.format)
+    ALC_df['StDev'] = ALC_df['StDev'].map('{:,.2f}'.format)
+    # print(ALC_df)
     print('Two-sided p-value Ale vs Lager: {:.3e}'.format(prob))
     return ALC_df
 
@@ -167,11 +199,11 @@ def CountryStats(cur, Country_thresh):
     country_df = pd.DataFrame(data=cntarr.T, index=countries, 
                               columns=['Mean', 'StDev', 'Count'])
     country_df = country_df.sort_index(by='Mean', ascending=False)
-    # country_df[1] = country_df[1].map('${:,.2f}'.format)
-    # print(country_df.to_string(float_format='{:,.2f}'.format))
+    country_df['StDev'] = country_df['StDev'].map('{:,.2f}'.format)
+    country_df['Mean'] = country_df['Mean'].map('{:,.2f}'.format)
     return country_df
 
-def IsCraftBetter(cur, Corp_thresh):
+def CorpStats(cur, Corp_thresh):
     # Runs two-sample t-tests on the corp results to tell if craft-brewing
     # is statistically better
     ratingsarray, corporations, corp_count = CountCorpRatings(cur,Corp_thresh)
@@ -204,8 +236,10 @@ def IsCraftBetter(cur, Corp_thresh):
         p_arr[corp_index] = prob
     corparr = np.vstack((corp_average, corp_std, corp_count, p_arr))
     corp_df = pd.DataFrame(data=corparr.T, index=corporations, 
-                    columns=['Mean', 'StDev', 'Count', 'Two sided p_val'])
-    # print(corp_df.to_string(float_format='{:,.4f}'.format))
+                    columns=['Mean', 'StDev', 'Count', 'Two-sided p'])
+    corp_df['StDev'] = corp_df['StDev'].map('{:,.2f}'.format)
+    corp_df['Mean'] = corp_df['Mean'].map('{:,.2f}'.format)
+    corp_df['Two-sided p'] = corp_df['Two-sided p'].map('{:,.4f}'.format)
     return corp_df
 
 def HelpMe():
@@ -219,7 +253,9 @@ def HelpMe():
     CorpHistogram(cur, thresh) for corp histogram
     StyleBar(cur, AleLagerCider, thresh) bar graph on ALC styles and stats
     CountryStats(cur, thresh) for country stats
-    IsCraftBetter(cur, thresh) for corp stats
+    CorpStats(cur, thresh) for corp stats
+    ALCstats(cur) to compare Ale, Lager, and Cider
+    ALCHistogram(cur) to histogram ALC ratings
     BeersList(cur) for a dataframe on all the beers I've had
     EmailBeersList(cur, emailaddr) to email beerslist
     AleOrLager(cur) for a quick Ale/Lager consideration
@@ -229,9 +265,12 @@ def HelpMe():
     print(helpstr)
     return 0
 
-EmailBeersList(cur, 'anzelpwj@gmail.com')
+# CorpHistogram(cur, 5)
+# StyleBar(cur, 'Lager', 2)
+# ALCstats(cur)
+# EmailBeersList(cur, 'anzelpwj@gmail.com')
 # HelpMe()
-# ALCHistogram(cur)
+# CountryHistogram(cur, 5)
 # print(CountryStats(cur, 5))
-# http://www.nature.com/news/scientific-method-statistical-errors-1.14700
+# 
 # Sometimes p-stats are disappointing

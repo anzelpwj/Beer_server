@@ -168,7 +168,7 @@ def CountCorpRatings(cur, numberthreshhold):
     		corporations.append(str(row[0]))
     		corporation_count.append(row[1])
     cur.execute(SQLstr_count_indeps)
-    corporations.append('Indep')
+    corporations.append('Craft/Independent')
     indepnum = cur.fetchall()
     corporation_count.append(indepnum[0][0])
     numcount = len(corporation_count)
@@ -319,6 +319,20 @@ def AleLagerCiderRatings(cur):
     return ratingsarray, AleLagerCider, ALCsum
 
 ## Basic stats
+def BasicRatings(cur):
+    """
+    Returns a ratings array for all beers, in order to check for normal-shape
+    """
+    ratingsarray = np.zeros((11))
+    for ratingind in range(0,11):
+        SQLstr = """SELECT count(*) FROM beers
+        WHERE ifnull(beers.Rating,'') <> ''
+        AND beers.Rating = """ + str(ratingind) + ';'
+        cur.execute(SQLstr)
+        Temprating = cur.fetchall()
+        ratingsarray[ratingind] = Temprating[0][0]
+    return ratingsarray
+
 def CountriesRepresented(cur):
     """
     Lists the countries that I've tried beers from. Does not process strings
@@ -462,7 +476,6 @@ def EmailBeersList(cur, addresstosend):
     # for line in emailfile:
     #     exec(line, global=True)
     # emailfile.close()
-    print(SMTP_USERNAME)
     #
     EMAIL_TO = addresstosend
     EMAIL_SUBJECT = "Beer list"
