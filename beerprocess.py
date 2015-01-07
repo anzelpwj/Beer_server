@@ -274,3 +274,5 @@ def HelpMe():
 # print(CountryStats(cur, 5))
 # 
 # Sometimes p-stats are disappointing
+print(BestFromCountry(cur, 10, 'Switzerland'))
+

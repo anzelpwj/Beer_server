@@ -47,7 +47,7 @@ Rice Beer;Other;Other
 Saison Ale;;Ale
 Smoked Beer;Smoked;Lager
 Specialbeer;;
-Spiced Beer;;Other
+Spiced Beer;;Spiced
 Strong Ale;;Ale
 Strong Dark Ale;;Ale
 Strong Pale Ale;Pale;Ale
@@ -75,3 +75,12 @@ Apple Cider;Cider;Cider
 Pear Cider;Cider;Cider
 Quadrupel;Trappist;Ale
 Strong Pale Lager;Pale;Lager
+Bitter;;
+Coffee Milk Stout;Stout;Ale
+Dunkler Bock;;Lager
+Grodziskie;Smoked;Ale
+Honey Beer;;Spiced
+Imperial Pilsner;Pilsner;Lager
+Irish Red Ale;;Ale
+Premium Lager;Pale;Lager
+Scotch Ale;;Ale

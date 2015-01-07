@@ -335,8 +335,7 @@ def BasicRatings(cur):
 
 def CountriesRepresented(cur):
     """
-    Lists the countries that I've tried beers from. Does not process strings
-    yet. Call:
+    Lists the countries that I've tried beers from.
     SQLoutput = CountriesRepresented(cur)
     """
     SQLstr = \
@@ -346,7 +345,11 @@ def CountriesRepresented(cur):
     WHERE ifnull(beers.Rating,'') <> '';
     """
     cur.execute(SQLstr)
-    return cur.fetchall()
+    output = cur.fetchall()
+    returnarr = []
+    for line in output:
+        returnarr.append(line[0])
+    return returnarr
 
 def BestBeers(cur, RatingThresh):
     """
@@ -364,27 +367,30 @@ def BestBeers(cur, RatingThresh):
 def BestFromCountry(cur, num_get, Country):
     """
     Gives the top num_get beers from a country
-    UNTESTED
+    UNTESTED. Want to add dataframe
     """
     assert num_get >= 1
-    SQLstr = 'SELECT TOP ' + str(round(num_get)) + """ PERCENT BeerName, Brewery, Rating FROM
+    SQLstr = """SELECT BeerName, Brewery, Rating FROM
     beers JOIN regions
     ON beers.Origin=regions.Region
     WHERE ifnull(beers.Rating,'') <> ''
     AND Country = '""" + Country + """'
-    ORDER BY Rating DESC;"""
+    ORDER BY Rating DESC
+    LIMIT """ + str(round(num_get)) + ';'
     cur.execute(SQLstr)
     values = cur.fetchall()
-    Beers = np.zeros(num_get)
-    Breweries = np.zeros(num_get)
-    Ratings = np.zeros(num_get)
-    for ind in range(num_get):
-        print(ind)
-        # FIX THIS
-        Beers[ind] = values[ind][0]
-        Breweries[ind] = values[ind][1]
-        Ratings[ind] = values[ind][2]
-    return Beers, Breweries, Ratings
+    Beers = []
+    Breweries = []
+    Ratings = []
+    for line in values:
+        Beers.append(line[0])
+        Breweries.append(line[1])
+        Ratings.append(line[2])
+    df_bestbeers = pd.DataFrame()
+    df_bestbeers['Beer'] = Beers
+    df_bestbeers['Brewery'] = Breweries
+    df_bestbeers['Rating'] = Ratings
+    return df_bestbeers
 
 def AleOrLager(cur):
     """
@@ -454,7 +460,10 @@ def MissingBeerTaxonomy(cur):
     EXCEPT SELECT Type FROM taxonomy;"""
     cur.execute(SQLstr)
     output = cur.fetchall()
-    return output
+    returnarr = []
+    for line in output:
+        returnarr.append(line[0])
+    return returnarr
 
 def MissingBeerRegions(cur):
     """
@@ -465,7 +474,10 @@ def MissingBeerRegions(cur):
     EXCEPT SELECT Region FROM regions;"""
     cur.execute(SQLstr)
     output = cur.fetchall()
-    return output
+    returnarr = []
+    for line in output:
+        returnarr.append(line[0])
+    return returnarr
 
 ## Export data
 def EmailBeersList(cur, addresstosend):
