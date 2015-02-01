@@ -22,6 +22,7 @@ BrandID;Brewery;Corporation
 ;Brasserie Piedboeuf;AB/InBev
 ;Budweiser;AB/InBev
 ;Castlemaine Perkins;AB/InBev
+;Cerveceria Bucanero;AB/InBev
 ;Cerveceria Nacional Dominicana;AB/InBev
 ;Cerveceria y Malteria Quilmes;AB/InBev
 ;Chernihivske;AB/InBev
@@ -38,6 +39,7 @@ BrandID;Brewery;Corporation
 ;Loewenbraeu;AB/InBev
 ;Oland Brewery;AB/InBev
 ;Oriental Brewery;AB/InBev
+;Samlesbury;AB/InBev
 ;Spaten-Franziskaner-Braeu;AB/InBev
 ;Stell Artois;AB/InBev
 ;Trebjesa Brewery;AB/InBev
@@ -45,6 +47,11 @@ BrandID;Brewery;Corporation
 ;Zagrebacka Pivovara;AB/InBev
 ;Asahi;Asahi
 ;Boston Beer Company;Boston Beer Company
+;Bulmers Ireland;C&C Group
+;Hornsby's;C&C Group
+;Shepton Mallet;C&C Group
+;Vermont Hard Cider Company;C&C Group
+;Wellpark;C&C Group
 ;Baltika Brewery;Carlsberg
 ;Bosman Brewery;Carlsberg
 ;Carlsberg;Carlsberg
@@ -63,15 +70,15 @@ BrandID;Brewery;Corporation
 ;Wusu Brewery;Carlsberg
 ;CR Snow;CR Snow
 ;Craft Brew Alliance;Craft Brew Aliance
-;Desnoes and Geddes;Diageo
-;Diageo;Diageo
-;Guiness Ltd.;Diageo
-;Kenya Breweries;Diageo
-;Meta Abo SC;Diageo
-;Namibia Breweries;Diageo
-;Serengeti Breweries;Diageo
-;St. James's Gate;Diageo
-;Uganda Breweries;Diageo
+;Desnoes and Geddes;Diageo / St. James Gate
+;Diageo;Diageo / St. James Gate
+;Guinness Ltd.;Diageo / St. James Gate
+;Kenya Breweries;Diageo / St. James Gate
+;Meta Abo SC;Diageo / St. James Gate
+;Namibia Breweries;Diageo / St. James Gate
+;Serengeti Breweries;Diageo / St. James Gate
+;St. James's Gate;Diageo / St. James Gate
+;Uganda Breweries;Diageo / St. James Gate
 ;Distell;Distell
 ;Birra Menabrea;Gambrinus
 ;BridgePort Brewing;Gambrinus
@@ -81,6 +88,7 @@ BrandID;Brewery;Corporation
 ;Genesee Brewing Company;Genesee Brewing Company
 ;Portland Brewing Company;Genesee Brewing Company
 ;Pyramid Breweries;Genesee Brewing Company
+;Belhaven;Greene King
 ;Greene King;Greene King
 ;Greene King Morland Brewery;Greene King
 ;Ruddles;Greene King
@@ -101,6 +109,7 @@ BrandID;Brewery;Corporation
 ;Brasserie de Tahiti;Heineken
 ;Brasserie Fischer;Heineken
 ;Breznak;Heineken
+;Bulmers Cider;Heineken
 ;Caledonian Brewery;Heineken
 ;DB Breweries;Heineken
 ;De Ridder Brewery;Heineken
@@ -181,6 +190,7 @@ BrandID;Brewery;Corporation
 ;Swaziland Beverages;SABMiller
 ;Tanzanian Breweries;SABMiller
 ;Ursus Breweries;SABMiller
+;Samuel Smith;Samuel Smith
 ;Sapporo;Sapporo
 ;Sleeman Brewery;Sapporo
 ;Unibroue;Sapporo
