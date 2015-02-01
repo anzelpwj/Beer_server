@@ -156,7 +156,8 @@ def CountCorpRatings(cur, numberthreshhold):
     SQLstr_count_indeps = \
     """SELECT count(*) FROM beers
     WHERE Brewery IN
-    (SELECT Brewery FROM beers EXCEPT SELECT Brewery FROM brands);
+    (SELECT Brewery FROM beers EXCEPT SELECT Brewery FROM brands)
+    AND ifnull(beers.Rating,'') <> '';
     """
     cur.execute(SQLstr_counting)
     SQLout = cur.fetchall()
