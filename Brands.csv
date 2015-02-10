@@ -22,6 +22,7 @@ BrandID;Brewery;Corporation
 ;Brasserie Piedboeuf;AB/InBev
 ;Budweiser;AB/InBev
 ;Castlemaine Perkins;AB/InBev
+;Cerveceria Boliviana;AB/InBev
 ;Cerveceria Bucanero;AB/InBev
 ;Cerveceria Nacional Dominicana;AB/InBev
 ;Cerveceria y Malteria Quilmes;AB/InBev
@@ -32,6 +33,7 @@ BrandID;Brewery;Corporation
 ;Grupo Modelo;AB/InBev
 ;Hertog Jan Brewery;AB/InBev
 ;Hoegaarden Brewery;AB/InBev
+;InBev;AB/InBev
 ;Kamenitza;AB/InBev
 ;Labatt Brewing Company;AB/InBev
 ;Lakeport Brewing Company;AB/InBev
@@ -59,7 +61,7 @@ BrandID;Brewery;Corporation
 ;Grimbergen Brewery;Carlsberg
 ;Holsten Brewery;Carlsberg
 ;Kronenbourg;Carlsberg
-;Mythos Brewery;Carlsberg
+;Mythos;Carlsberg
 ;Saku Brewery;Carlsberg
 ;Shumensko Brewery;Carlsberg
 ;Sinebrychoff;Carlsberg
@@ -136,6 +138,7 @@ BrandID;Brewery;Corporation
 ;Marston's;Marston's
 ;Ringwood Brewery;Marston's
 ;Wychwood Brewery;Marston's
+;Apatinska Pivara;Molson Coors
 ;Cobra Brewery;Molson Coors
 ;Coors;Molson Coors
 ;Coors UK;Molson Coors
@@ -160,18 +163,22 @@ BrandID;Brewery;Corporation
 ;Tucher Braeu Fuerth;Oetker Group
 ;Pabst Brewing Company;Pabst Brewing Company
 ;Browary Lubelskie;Royal Unibrew
+;Hartwall;Royal Unibrew
 ;FILLINMORERU;Royal Unibrew
 ;Royal Unibrew;Royal Unibrew
 ;Backus;SABMiller
 ;Birra Peroni;SABMiller
 ;Botswana Brewery;SABMiller
+;Carlton & United Breweries;SABMiller
 ;Canarias Brewery;SABMiller
 ;Castle Brewery;SABMiller
 ;Cerveceria Bavaria;SABMiller
 ;Cerveceria Hondurena;SABMiller
 ;Cerveceria National;SABMiller
 ;Dreher Kobanya Brewery;SABMiller
+;Fosters;SABMiller
 ;Grolsch;SABMiller
+;Grupo Empresarial Bavaria;SABMiller
 ;Henry Weinhard's;SABMiller
 ;Intafact Beverages;SABMiller
 ;International Breweries Plc;SABMiller

@@ -237,6 +237,7 @@ def CorpStats(cur, Corp_thresh):
     corparr = np.vstack((corp_average, corp_std, corp_count, p_arr))
     corp_df = pd.DataFrame(data=corparr.T, index=corporations, 
                     columns=['Mean', 'StDev', 'Count', 'Two-sided p'])
+    # corp_df.sort('Mean')
     corp_df['StDev'] = corp_df['StDev'].map('{:,.2f}'.format)
     corp_df['Mean'] = corp_df['Mean'].map('{:,.2f}'.format)
     corp_df['Two-sided p'] = corp_df['Two-sided p'].map('{:,.4f}'.format)
@@ -274,5 +275,5 @@ def HelpMe():
 # print(CountryStats(cur, 5))
 # 
 # Sometimes p-stats are disappointing
-print(BestFromCountry(cur, 10, 'Switzerland'))
+# print(BestFromCountry(cur, 10, 'Switzerland'))
 

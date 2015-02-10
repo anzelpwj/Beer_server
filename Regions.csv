@@ -92,6 +92,7 @@ Netherlands;Netherlands;Europe
 Norway;Norway;Europe
 Poland;Poland;Europe
 Portugal;Portugal;Europe
+Serbia;Serbia;Europe
 Slovakia;Slovakia;Europe
 Slovenia;Slovenia;Europe
 Spain;Spain;Europe
@@ -103,8 +104,8 @@ Thailand;Thailand;Asia
 Mongolia;Mongolia;Asia
 Japan;Japan;Asia
 India;India;Asia
+Kenya;Kenya;Africa
 Morocco;Morocco;Africa
-Egypt;Egypt;Africa
 South Africa;South Africa;Africa
 Ethiopia;Ethiopia;Africa
 Barbados;Barbados;CA/Carib
@@ -138,3 +139,11 @@ Singapore;Singapore;Oceania
 Malaysia;Malaysia;Oceania
 New Zealand;New Zealand;Oceania
 French Polynesia;France;Oceania
+Turkey;Turkey;Middle East
+Lebanon;Lebanon;Middle East
+Israel;Israel;Middle East
+Egypt;Egypt;Middle East
+Syria;Syria;Middle East
+Jordan;Jordan;Middle East
+Iraq;Iraq;Middle East
+Iran;Iran;Middle East
