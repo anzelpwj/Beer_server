@@ -1,59 +1,64 @@
 BrandID;Brewery;Corporation
-;AB/InBev;AB/InBev
-;Absolut Cut;AB/InBev
-;Alexander Keith's Brewery;AB/InBev
-;Andes Brewery;AB/InBev
-;Antarctica Paulista;AB/InBev
-;Apatin Brewery;AB/InBev
-;Aqua Fratelli Vita;AB/InBev
-;Astika Brewery;AB/InBev
-;BagBier;AB/InBev
-;Baisha Brewery;AB/InBev
-;Bass Brewery;AB/InBev
-;Baviera Brewery;AB/InBev
-;Beck's Brewery;AB/InBev
-;Belle-Vue Brewrey;AB/InBev
-;Bergenbier;AB/InBev
-;Blue Star;AB/InBev
-;Boddingtons Brewery;AB/InBev
-;Bohemia Brewery;AB/InBev
-;Boomerang Brewery;AB/InBev
-;Boorsodi Brewery;AB/InBev
-;Brasserie Piedboeuf;AB/InBev
-;Budweiser;AB/InBev
-;Castlemaine Perkins;AB/InBev
-;Cerveceria Boliviana;AB/InBev
-;Cerveceria Bucanero;AB/InBev
-;Cerveceria Nacional Dominicana;AB/InBev
-;Cerveceria y Malteria Quilmes;AB/InBev
-;Chernihivske;AB/InBev
-;Companhia Cervejaria Brahma;AB/InBev
-;Dommelsch Brewrey;AB/InBev
-;Goose Island Brewery;AB/InBev
-;Grupo Modelo;AB/InBev
-;Hertog Jan Brewery;AB/InBev
-;Hoegaarden Brewery;AB/InBev
-;InBev;AB/InBev
-;Kamenitza;AB/InBev
-;Labatt Brewing Company;AB/InBev
-;Lakeport Brewing Company;AB/InBev
-;Leffe;AB/InBev
-;Loewenbraeu;AB/InBev
-;Oland Brewery;AB/InBev
-;Oriental Brewery;AB/InBev
-;Samlesbury;AB/InBev
-;Spaten-Franziskaner-Braeu;AB/InBev
-;Stell Artois;AB/InBev
-;Trebjesa Brewery;AB/InBev
-;United Dutch Breweries;AB/InBev
-;Zagrebacka Pivovara;AB/InBev
+;AB/InBev;AB / InBev
+;Absolut Cut;AB / InBev
+;Alexander Keith's Brewery;AB / InBev
+;Andes Brewery;AB / InBev
+;Antarctica Paulista;AB / InBev
+;Apatin Brewery;AB / InBev
+;Aqua Fratelli Vita;AB / InBev
+;Astika Brewery;AB / InBev
+;BagBier;AB / InBev
+;Baisha Brewery;AB / InBev
+;Bass Brewery;AB / InBev
+;Baviera Brewery;AB / InBev
+;Beck's Brewery;AB / InBev
+;Belle-Vue Brewrey;AB / InBev
+;Bergenbier;AB / InBev
+;Blue Star;AB / InBev
+;Boddingtons Brewery;AB / InBev
+;Bohemia Brewery;AB / InBev
+;Boomerang Brewery;AB / InBev
+;Boorsodi Brewery;AB / InBev
+;Brasserie Piedboeuf;AB / InBev
+;Budweiser;AB / InBev
+;Castlemaine Perkins;AB / InBev
+;Cerveceria Boliviana;AB / InBev
+;Cerveceria Bucanero;AB / InBev
+;Cerveceria Nacional Dominicana;AB / InBev
+;Cerveceria y Malteria Quilmes;AB / InBev
+;Chernihivske;AB / InBev
+;Companhia Cervejaria Brahma;AB / InBev
+;Dommelsch Brewrey;AB / InBev
+;Goose Island;AB / InBev
+;Grupo Modelo;AB / InBev
+;Hertog Jan Brewery;AB / InBev
+;Hoegaarden Brewery;AB / InBev
+;InBev;AB / InBev
+;Kamenitza;AB / InBev
+;Labatt Brewing Company;AB / InBev
+;Lakeport Brewing Company;AB / InBev
+;Leffe;AB / InBev
+;Loewenbraeu;AB / InBev
+;Oland Brewery;AB / InBev
+;Oriental Brewery;AB / InBev
+;Samlesbury;AB / InBev
+;Spaten-Franziskaner-Braeu;AB / InBev
+;Stella Artois;AB / InBev
+;Trebjesa Brewery;AB / InBev
+;United Dutch Breweries;AB / InBev
+;Zagrebacka Pivovara;AB / InBev
 ;Asahi;Asahi
+;Angry Orchard;Boston Beer Company
 ;Boston Beer Company;Boston Beer Company
 ;Bulmers Ireland;C&C Group
 ;Hornsby's;C&C Group
+;Magners GB;C&C Group
 ;Shepton Mallet;C&C Group
 ;Vermont Hard Cider Company;C&C Group
 ;Wellpark;C&C Group
+;Brasseries Du Maroc;Castel
+;Kombolcha Brewery;Castel
+;Utenos;Carlsberg
 ;Baltika Brewery;Carlsberg
 ;Bosman Brewery;Carlsberg
 ;Carlsberg;Carlsberg
@@ -61,6 +66,7 @@ BrandID;Brewery;Corporation
 ;Grimbergen Brewery;Carlsberg
 ;Holsten Brewery;Carlsberg
 ;Kronenbourg;Carlsberg
+;Lvivska Pivovarnya;Carlsberg
 ;Mythos;Carlsberg
 ;Saku Brewery;Carlsberg
 ;Shumensko Brewery;Carlsberg
@@ -115,12 +121,14 @@ BrandID;Brewery;Corporation
 ;Caledonian Brewery;Heineken
 ;DB Breweries;Heineken
 ;De Ridder Brewery;Heineken
+;FEMSA;Heineken
 ;Fuerstenberg Brewery;Heineken
 ;Grupo Cruzcampo SA;Heineken
 ;Heineken;Heineken
 ;John Smiths;Heineken
 ;Karlovacko;Heineken
 ;Krusovice Brewery;Heineken
+;Lagunitas;Heineken
 ;Monteith's;Heineken
 ;Murphy's Brewery;Heineken
 ;Nigerian Breweries;Heineken
@@ -129,6 +137,7 @@ BrandID;Brewery;Corporation
 ;Skopje Brewery;Heineken
 ;Sociedade Central de Cervejas;Heineken
 ;Starobrno Brewery;Heineken
+;Tien Giang;Heineken
 ;Tui Brewery;Heineken
 ;Zagorka Brewery;Heineken
 ;Zlaty Bazant Brewery;Heineken
@@ -145,6 +154,7 @@ BrandID;Brewery;Corporation
 ;Molson;Molson Coors
 ;Molson Coors;Molson Coors
 ;Staropramen;Molson Coors
+;Thomas Hardy Burtonwood;Molson Coors
 ;White Shield / Museum;Molson Coors
 ;William Stones Brewery;Molson Coors
 ;Boulevard Brewing Company;Moortgat
@@ -157,6 +167,7 @@ BrandID;Brewery;Corporation
 ;Riva Brewery;Moortgat
 ;New Belgium;New Belgium
 ;North American Breweries;North American Breweries
+;Dortmunder Actien Brauerei;Oetker Group
 ;FILLINMOREOETKER;Oetker Group
 ;Jever;Oetker Group
 ;Oetker Group;Oetker Group
@@ -175,6 +186,7 @@ BrandID;Brewery;Corporation
 ;Cerveceria Bavaria;SABMiller
 ;Cerveceria Hondurena;SABMiller
 ;Cerveceria National;SABMiller
+;Crispin Cider Company;SABMiller
 ;Dreher Kobanya Brewery;SABMiller
 ;Fosters;SABMiller
 ;Grolsch;SABMiller
@@ -204,6 +216,8 @@ BrandID;Brewery;Corporation
 ;Upper Canada Brewing Company;Sapporo
 ;Sierra Nevada Brewing;Sierra Nevada Brewing
 ;Tsingtao;Tsingtao
+;Mendocino;United Breweries Group
+;United Breweries Group;United Breweries Group
 ;Charles Wells;Wells and Young's
 ;Courage Brewery;Wells and Young's
 ;Wells & Young's;Wells and Young's

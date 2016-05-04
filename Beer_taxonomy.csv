@@ -2,21 +2,29 @@ Type;BeerClass;AleOrLager
 Adjunct Lager;;Lager
 Altbier;;Ale
 Amber Ale;Pale;Ale
+Amber Lager;;Lager
 American Pale Ale;Pale;Ale
 Apple Cider;Cider;Cider
+Barley Wine;;Ale
 Baltic Porter;Stout;Ale
+Belgian Ale;;Ale
 Belgian Dark Ale;;Ale
 Berliner Weissbier;Wheat;Ale
 Biere de Garde;;Ale
 Bitter;;Ale
 Black Ale;;Ale
+Black IPA;IPA;Ale
 Blond Ale;;Ale
 Blond Beer;;Ale
 Brown Ale;;Ale
+Boza;;Kvass
+California Common;;Lager
 Chocolate Stout;Stout;Ale
 Coffee Milk Stout;Stout;Ale
 Coffee Stout;Stout;Ale
+Cream Ale;;Ale
 Czech Pilsner;Pilsner;Lager
+Dark Lager;;Lager
 Doppelbock;Bock;Lager
 Dortmunder;Helles;Lager
 Double IPA;IPA;Ale
@@ -37,24 +45,34 @@ Export Stout;Stout;Ale
 Faro;Sweet;Ale
 Flanders Oud Bruin;Sour;Ale
 Flanders Red Ale;Sour;Ale
-Fruit Beer;Other;Other
+Fruit Ale;Sweet;Ale
+Fruit Beer;Sweet;Other
+Fruit Lager;Sweet;Lager
 German Hefeweizen;Wheat;Ale
 German Pilsner;Pilsner;Lager
 Ginger Beer;Other;Other
+Gose;Sour;Ale
 Grodziskie;Smoked;Ale
 Gueze;Sour;Ale
 Hefeweizen;Wheat;Ale
 Heller Bock;Helles;Lager
 Helles Lager;Helles;Lager
-Herb Beer;;Spiced
-Honey Beer;;Spiced
+Herb Beer;;Other
+Honey Ale;;Ale
+Honey Beer;;Other
+Imperial IPA;;Ale
 Imperial Pilsner;Pilsner;Lager
+Imperial Porter;Stout;Ale
 Imperial Stout;Stout;Ale
 IPA;IPA;Ale
 Irish Red Ale;;Ale
 Kellerbier;Helles;Lager
+Kolsch;;Ale
+Kvass;Kvass;Kvass
 Lager;Lager;Lager
 Lambic;Sweet;Ale
+Marzen;;Lager
+Mead;Mead;Mead
 Munich Dunkel;;Lager
 Munich Helles Lager;Helles;Lager
 Oatmeal Stout;Stout;Ale
@@ -63,21 +81,32 @@ Old Ale;;Ale
 Pale Ale;Pale;Ale
 Pale Lager;Pale;Lager
 Pear Cider;Cider;Cider
+Perry;Cider;Cider
 Pilsner;Pilsner;Lager
+Pineapple Cider;;Cider
 Porter;Stout;Ale
 Premium Lager;Pale;Lager
 Quadrupel;Trappist;Ale
 Radler;Sweet;Lager
 Red Ale;Sour;Ale
 Rice Beer;Other;Other
+Sahti;;Ale
 Saison Ale;;Ale
 Schwarzbier;;Lager
 Scotch Ale;;Ale
 Scottish Ale;;Ale
+Session IPA;Pale;Ale
 Smoked Ale;Smoked;Ale
+Smoked Lager;Smoked;Lager
 Smoked Beer;Smoked;Lager
-Specialbeer;;
-Spiced Beer;;Spiced
+Smoked Porter;Smoked;Ale
+Sour Ale;Sour;Ale
+Sour Red;Sour;Ale
+Specialbeer;;Other
+Spice Beer;;Other
+Spiced Beer;;Other
+Spiced Porter;;Ale
+Spiced Ale;;Ale
 Stout;Stout;Ale
 Strong Ale;;Ale
 Strong Dark Ale;;Ale
@@ -85,8 +114,14 @@ Strong Lager;;Lager
 Strong Pale Ale;Pale;Ale
 Strong Pale Lager;Pale;Lager
 Sweet Stout;Stout;Ale
+Tmavy;;Lager
+Traditional Ale;;Ale
 Trappist;Trappist;Ale
 Tripel;Trappist;Ale
 Vienna Lager;;Lager
+Wheat Ale;Wheat;Ale
+White Ale;Wheat;Ale
+Wild Ale;Sour;Ale
 Wit Beer;Wheat;Ale
 Zwickelbier;Helles;Lager
+Unknown;;Other

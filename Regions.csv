@@ -1,149 +1,157 @@
-Region;Country;Continent
-Alabama;US;North America
-Alaska;US;North America
-Arizona;US;North America
-Arkansas;US;North America
-California;US;North America
-Colorado;US;North America
-Connecticut;US;North America
-Delaware;US;North America
-Florida;US;North America
-Georgia;US;North America
-Hawaii;US;North America
-Idaho;US;North America
-Illinois;US;North America
-Indiana;US;North America
-Iowa;US;North America
-Kansas;US;North America
-Kentucky;US;North America
-Lousiana;US;North America
-Maine;US;North America
-Maryland;US;North America
-Massachusetts;US;North America
-Michigan;US;North America
-Minnesota;US;North America
-Mississippi;US;North America
-Missouri;US;North America
-Montana;US;North America
-Nebraska;US;North America
-Nevada;US;North America
-New Hampshire;US;North America
-New Jersey;US;North America
-New Mexico;US;North America
-New York;US;North America
-North Carolina;US;North America
-North Dakota;US;North America
-Ohio;US;North America
-Oklahoma;US;North America
-Oregon;US;North America
-Pennsylvania;US;North America
-Puerto Rico;US;North America
-Rhode Island;US;North America
-South Carolina;US;North America
-South Dakota;US;North America
-Tennessee;US;North America
-Texas;US;North America
-Utah;US;North America
-Vermont;US;North America
-Virginia;US;North America
-Washington;US;North America
-West Virginia;US;North America
-Wisconsin;US;North America
-US;US;North America
-Ontario;Canada;North America
-Quebec;Canada;North America
-Nova Scotia;Canada;North America
-New Brunswick;Canada;North America
-Manitoba;Canada;North America
-British Columbia;Canada;North America
-Prince Edward Island;Canada;North America
-Saskatchewan;Canada;North America
-Alberta;Canada;North America
-Newfoundland and Labrador;Canada;North America
-Northwest Territories;Canada;North America
-Yukon;Canada;North America
-Nunavut;Canada;North America
-Canada;Canada;North America
-Mexico;Mexico;North America
-England;UK;Europe
-Scotland;UK;Europe
-Wales;UK;Europe
-Northern Ireland;UK;Europe
-UK;UK;Europe
-Austria;Austria;Europe
-Belgium;Belgium;Europe
-Bosnia;Bosnia;Europe
-Croatia;Croatia;Europe
-Czech Republic;Czech Republic;Europe
-Denmark;Denmark;Europe
-Estonia;Estonia;Europe
-Finland;Finland;Europe
-France;France;Europe
-Germany;Germany;Europe
-Hungary;Hungary;Europe
-Iceland;Iceland;Europe
-Ireland;Ireland;Europe
-Italy;Italy;Europe
-Kosovo;Kosovo;Europe
-Latvia;Latvia;Europe
-Lithuania;Lithuania;Europe
-Luxembourg;Luxembourg;Europe
-Netherlands;Netherlands;Europe
-Norway;Norway;Europe
-Poland;Poland;Europe
-Portugal;Portugal;Europe
-Serbia;Serbia;Europe
-Slovakia;Slovakia;Europe
-Slovenia;Slovenia;Europe
-Spain;Spain;Europe
-Sweden;Sweden;Europe
-Switzerland;Switzerland;Europe
-Russia;Russia;Asia
-China;China;Asia
-Thailand;Thailand;Asia
-Mongolia;Mongolia;Asia
-Japan;Japan;Asia
-India;India;Asia
-Kenya;Kenya;Africa
-Morocco;Morocco;Africa
-South Africa;South Africa;Africa
-Ethiopia;Ethiopia;Africa
-Barbados;Barbados;CA/Carib
-Belize;Belize;CA/Carib
-Costa Rica;Costa Rica;CA/Carib
-Cuba;Cuba;CA/Carib
-El Salvador;El Salvador;CA/Carib
-Guatemala;Guatemala;CA/Carib
-Haiti;Haiti;CA/Carib
-Honduras;Honduras;CA/Carib
-Nicaragua;Nicaragua;CA/Carib
-Panama;Panama;CA/Carib
-Dominican Republic;Dominican Republic;CA/Carib
-Argentina;Argentina;South America
-Bolivia;Bolivia;South America
-Brazil;Brazil;South America
-Chile;Chile;South America
-Columbia;Columbia;South America
-Ecuador;Ecuador;South America
-French Guiana;French Guiana;South America
-Guyana;Guyana;South America
-Paraguay;Paraguay;South America
-Peru;Peru;South America
-Suriname;Suriname;South America
-Uruguay;Uruguay;South America
-Venezuela;Venezuela;South America
-Australia;Australia;Oceania
-Indonesia;Indonesia;Oceania
-Philippines;Philippines;Oceania
-Singapore;Singapore;Oceania
-Malaysia;Malaysia;Oceania
-New Zealand;New Zealand;Oceania
-French Polynesia;France;Oceania
-Turkey;Turkey;Middle East
-Lebanon;Lebanon;Middle East
-Israel;Israel;Middle East
-Egypt;Egypt;Middle East
-Syria;Syria;Middle East
-Jordan;Jordan;Middle East
-Iraq;Iraq;Middle East
-Iran;Iran;Middle East
+Region;Country;Superregion;Continent
+Alabama;US;US-South;North America
+Alaska;US;US-Pacific Coast;North America
+Arizona;US;US-Mountain States;North America
+Arkansas;US;US-South;North America
+California;US;US-Pacific Coast;North America
+Colorado;US;US-Mountain States;North America
+Connecticut;US;US-New England;North America
+Delaware;US;US-Mid Atlantic;North America
+Florida;US;US-South;North America
+Georgia;US;US-South;North America
+Hawaii;US;US-Pacific Coast;North America
+Idaho;US;US-Mountain States;North America
+Illinois;US;US-Midwest;North America
+Indiana;US;US-Midwest;North America
+Iowa;US;US-Midwest;North America
+Kansas;US;US-Midwest;North America
+Kentucky;US;US-South;North America
+Louisiana;US;US-South;North America
+Maine;US;US-New England;North America
+Maryland;US;US-Mid Atlantic;North America
+Massachusetts;US;US-New England;North America
+Michigan;US;US-Midwest;North America
+Minnesota;US;US-Midwest;North America
+Mississippi;US;US-South;North America
+Missouri;US;US-Midwest;North America
+Montana;US;US-Mountain States;North America
+Nebraska;US;US-Midwest;North America
+Nevada;US;US-Mountain States;North America
+New Hampshire;US;US-New England;North America
+New Jersey;US;US-Mid Atlantic;North America
+New Mexico;US;US-Mountain States;North America
+New York;US;US-Mid Atlantic;North America
+North Carolina;US;US-South;North America
+North Dakota;US;US-Midwest;North America
+Ohio;US;US-Midwest;North America
+Oklahoma;US;US-South;North America
+Oregon;US;US-Pacific Coast;North America
+Pennsylvania;US;US-Mid Atlantic;North America
+Puerto Rico;US;US-South;North America
+Rhode Island;US;US-New England;North America
+South Carolina;US;US-South;North America
+South Dakota;US;US-Midwest;North America
+Tennessee;US;US-South;North America
+Texas;US;US-South;North America
+Utah;US;US-Mountain States;North America
+Vermont;US;US-New England;North America
+Virginia;US;US-Mid Atlantic;North America
+Washington;US;US-Pacific Coast;North America
+West Virginia;US;US-Mid Atlantic;North America
+Wisconsin;US;US-Midwest;North America
+US;US;US;North America
+Ontario;Canada;CA-Central;North America
+Quebec;Canada;CA-Central;North America
+Nova Scotia;Canada;CA-Atlantic;North America
+New Brunswick;Canada;CA-Atlantic;North America
+Manitoba;Canada;CA-Western;North America
+British Columbia;Canada;CA-Western;North America
+Prince Edward Island;Canada;CA-Atlantic;North America
+Saskatchewan;Canada;CA-Western;North America
+Alberta;Canada;CA-Western;North America
+Newfoundland and Labrador;Canada;CA-Atlantic;North America
+Northwest Territories;Canada;CA-Northern;North America
+Yukon;Canada;CA-Northern;North America
+Nunavut;Canada;CA-Northern;North America
+Canada;Canada;CA;North America
+Mexico;Mexico;Mexico;North America
+England;UK;EU-British Isles;Europe
+Scotland;UK;EU-British Isles;Europe
+Wales;UK;EU-British Isles;Europe
+Northern Ireland;UK;EU-British Isles;Europe
+UK;UK;EU-British Isles;Europe
+Austria;Austria;EU-Central;Europe
+Belgium;Belgium;EU-Western;Europe
+Bosnia;Bosnia;EU-Balkan;Europe
+Bulgaria;Bulgaria;EU-Eastern;Europe
+Croatia;Croatia;EU-Balkan;Europe
+Czech Republic;Czech Republic;EU-Central;Europe
+Denmark;Denmark;EU-Scandanavia;Europe
+Estonia;Estonia;EU-Eastern;Europe
+Finland;Finland;EU-Scandanavia;Europe
+France;France;EU-Western;Europe
+Germany;Germany;EU-Central;Europe
+Greece;Greece;EU-Balkan;Europe
+Hungary;Hungary;EU-Central;Europe
+Iceland;Iceland;EU-Scandanavia;Europe
+Ireland;Ireland;EU-British Isles;Europe
+Italy;Italy;EU-Southern;Europe
+Kosovo;Kosovo;EU-Balkan;Europe
+Latvia;Latvia;EU-Eastern;Europe
+Liechtenstein;Liechtenstein;EU-Central;Europe
+Lithuania;Lithuania;EU-Eastern;Europe
+Luxembourg;Luxembourg;EU-Western;Europe
+Netherlands;Netherlands;EU-Western;Europe
+Norway;Norway;EU-Scandanavia;Europe
+Poland;Poland;EU-Eastern;Europe
+Portugal;Portugal;EU-Southern;Europe
+Serbia;Serbia;EU-Balkan;Europe
+Slovakia;Slovakia;EU-Central;Europe
+Slovenia;Slovenia;EU-Balkan;Europe
+Spain;Spain;EU-Southern;Europe
+Sweden;Sweden;EU-Scandanavia;Europe
+Switzerland;Switzerland;EU-Central;Europe
+Ukraine;Ukraine;EU-Eastern;Europe
+Armenia;Armenia;AS-Western;Asia
+China;China;AS-Eastern;Asia
+India;India;AS-Southern;Asia
+Japan;Japan;AS-Eastern;Asia
+Mongolia;Mongolia;AS-Eastern;Asia
+South Korea;South Korea;AS-Eastern;Asia
+Sri Lanka;Sri Lanka;AS-Southern;Asia
+Russia;Russia;EU-Eastern;Asia
+Thailand;Thailand;AS-Southern;Asia
+Vietnam;Vietnam;AS-Southern;Asia
+Kenya;Kenya;Africa;Africa
+Morocco;Morocco;Africa;Africa
+South Africa;South Africa;Africa;Africa
+Ethiopia;Ethiopia;Africa;Africa
+Barbados;Barbados;CA/Carib;CA/Carib
+Belize;Belize;CA/Carib;CA/Carib
+Costa Rica;Costa Rica;CA/Carib;CA/Carib
+Cuba;Cuba;CA/Carib;CA/Carib
+El Salvador;El Salvador;CA/Carib;CA/Carib
+Guatemala;Guatemala;CA/Carib;CA/Carib
+Haiti;Haiti;CA/Carib;CA/Carib
+Honduras;Honduras;CA/Carib;CA/Carib
+Nicaragua;Nicaragua;CA/Carib;CA/Carib
+Panama;Panama;CA/Carib;CA/Carib
+Dominican Republic;Dominican Republic;CA/Carib;CA/Carib
+Argentina;Argentina;SA-Southern;South America
+Bolivia;Bolivia;SA-Andean;South America
+Brazil;Brazil;SA-Eastern;South America
+Chile;Chile;SA-Southern;South America
+Colombia;Columbia;SA-Northern;South America
+Ecuador;Ecuador;SA-Andean;South America
+French Guiana;French Guiana;SA-Northern;South America
+Guyana;Guyana;SA-Northern;South America
+Paraguay;Paraguay;SA-Eastern;South America
+Peru;Peru;SA-Andean;South America
+Suriname;Suriname;SA-Northern;South America
+Uruguay;Uruguay;SA-Southern;South America
+Venezuela;Venezuela;SA-Northern;South America
+Australia;Australia;Oceania;Oceania
+Indonesia;Indonesia;Oceania;Oceania
+Philippines;Philippines;Oceania;Oceania
+Singapore;Singapore;Oceania;Oceania
+Malaysia;Malaysia;Oceania;Oceania
+New Zealand;New Zealand;Oceania;Oceania
+French Polynesia;France;Oceania;Oceania
+Turkey;Turkey;Middle East;Middle East
+Lebanon;Lebanon;Middle East;Middle East
+Israel;Israel;Middle East;Middle East
+Egypt;Egypt;Middle East;Middle East
+Syria;Syria;Middle East;Middle East
+Jordan;Jordan;Middle East;Middle East
+Iraq;Iraq;Middle East;Middle East
+Iran;Iran;Middle East;Middle East

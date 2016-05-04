@@ -546,6 +546,7 @@ def InitFromCSV(filename):
     (
         Region TEXT NOT NULL,
         Country TEXT NOT NULL,
+	Superregion TEXT NOT NULL,
         Continent TEXT NOT NULL
     );
     '''
@@ -587,7 +588,7 @@ def InitFromCSV(filename):
     
     with conn: # Strangely, I have to split up the with because dumb
         cur.executemany('INSERT INTO beers VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)', beer_csv)
-        cur.executemany('INSERT INTO regions VALUES (?, ?, ?)', regions_csv)
+        cur.executemany('INSERT INTO regions VALUES (?, ?, ?, ?)', regions_csv)
         cur.executemany('INSERT INTO taxonomy VALUES (?, ?, ?)', taxonomy_csv)
         for row in brand_csv:
             cur.execute('INSERT INTO brands (Brewery, Corporation) VALUES (?, ?)', (row[1], row[2]))
