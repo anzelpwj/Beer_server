@@ -1,225 +1,226 @@
-BrandID;Brewery;Corporation
-;AB/InBev;AB / InBev
-;Absolut Cut;AB / InBev
-;Alexander Keith's Brewery;AB / InBev
-;Andes Brewery;AB / InBev
-;Antarctica Paulista;AB / InBev
-;Apatin Brewery;AB / InBev
-;Aqua Fratelli Vita;AB / InBev
-;Astika Brewery;AB / InBev
-;BagBier;AB / InBev
-;Baisha Brewery;AB / InBev
-;Bass Brewery;AB / InBev
-;Baviera Brewery;AB / InBev
-;Beck's Brewery;AB / InBev
-;Belle-Vue Brewrey;AB / InBev
-;Bergenbier;AB / InBev
-;Blue Star;AB / InBev
-;Boddingtons Brewery;AB / InBev
-;Bohemia Brewery;AB / InBev
-;Boomerang Brewery;AB / InBev
-;Boorsodi Brewery;AB / InBev
-;Brasserie Piedboeuf;AB / InBev
-;Budweiser;AB / InBev
-;Castlemaine Perkins;AB / InBev
-;Cerveceria Boliviana;AB / InBev
-;Cerveceria Bucanero;AB / InBev
-;Cerveceria Nacional Dominicana;AB / InBev
-;Cerveceria y Malteria Quilmes;AB / InBev
-;Chernihivske;AB / InBev
-;Companhia Cervejaria Brahma;AB / InBev
-;Dommelsch Brewrey;AB / InBev
-;Goose Island;AB / InBev
-;Grupo Modelo;AB / InBev
-;Hertog Jan Brewery;AB / InBev
-;Hoegaarden Brewery;AB / InBev
-;InBev;AB / InBev
-;Kamenitza;AB / InBev
-;Labatt Brewing Company;AB / InBev
-;Lakeport Brewing Company;AB / InBev
-;Leffe;AB / InBev
-;Loewenbraeu;AB / InBev
-;Oland Brewery;AB / InBev
-;Oriental Brewery;AB / InBev
-;Samlesbury;AB / InBev
-;Spaten-Franziskaner-Braeu;AB / InBev
-;Stella Artois;AB / InBev
-;Trebjesa Brewery;AB / InBev
-;United Dutch Breweries;AB / InBev
-;Zagrebacka Pivovara;AB / InBev
-;Asahi;Asahi
-;Angry Orchard;Boston Beer Company
-;Boston Beer Company;Boston Beer Company
-;Bulmers Ireland;C&C Group
-;Hornsby's;C&C Group
-;Magners GB;C&C Group
-;Shepton Mallet;C&C Group
-;Vermont Hard Cider Company;C&C Group
-;Wellpark;C&C Group
-;Brasseries Du Maroc;Castel
-;Kombolcha Brewery;Castel
-;Utenos;Carlsberg
-;Baltika Brewery;Carlsberg
-;Bosman Brewery;Carlsberg
-;Carlsberg;Carlsberg
-;Feldschlossen Beverages Group;Carlsberg
-;Grimbergen Brewery;Carlsberg
-;Holsten Brewery;Carlsberg
-;Kronenbourg;Carlsberg
-;Lvivska Pivovarnya;Carlsberg
-;Mythos;Carlsberg
-;Saku Brewery;Carlsberg
-;Shumensko Brewery;Carlsberg
-;Sinebrychoff;Carlsberg
-;Slavutych Brewery;Carlsberg
-;St. Pauli Brewery;Carlsberg
-;Svyturys;Carlsberg
-;Tuborg Brewery;Carlsberg
-;Wusu Brewery;Carlsberg
-;CR Snow;CR Snow
-;Craft Brew Alliance;Craft Brew Aliance
-;Desnoes and Geddes;Diageo / St. James Gate
-;Diageo;Diageo / St. James Gate
-;Guinness Ltd.;Diageo / St. James Gate
-;Kenya Breweries;Diageo / St. James Gate
-;Meta Abo SC;Diageo / St. James Gate
-;Namibia Breweries;Diageo / St. James Gate
-;Serengeti Breweries;Diageo / St. James Gate
-;St. James's Gate;Diageo / St. James Gate
-;Uganda Breweries;Diageo / St. James Gate
-;Distell;Distell
-;Birra Menabrea;Gambrinus
-;BridgePort Brewing;Gambrinus
-;Gambrinus;Gambrinus
-;Spoetzl Brewery;Gambrinus
-;Trumer Brauerei Berkeley;Gambrinus
-;Genesee Brewing Company;Genesee Brewing Company
-;Portland Brewing Company;Genesee Brewing Company
-;Pyramid Breweries;Genesee Brewing Company
-;Belhaven;Greene King
-;Greene King;Greene King
-;Greene King Morland Brewery;Greene King
-;Ruddles;Greene King
-;Affligem Brewery;Heineken
-;Al Ahram Brewery;Heineken
-;Alken-Maes Brewery;Heineken
-;Almaza Brewery;Heineken
-;Amstel;Heineken
-;Asia Pacific Breweries;Heineken
-;Athenian Brewery;Heineken
-;Beamish & Crawford;Heineken
-;Birra Dreher;Heineken
-;Birra Ichnusa;Heineken
-;Birra Moretti;Heineken
-;Bochkarev;Heineken
-;Bralima Brewery;Heineken
-;Brand Brewery;Heineken
-;Brasserie de Tahiti;Heineken
-;Brasserie Fischer;Heineken
-;Breznak;Heineken
-;Bulmers Cider;Heineken
-;Caledonian Brewery;Heineken
-;DB Breweries;Heineken
-;De Ridder Brewery;Heineken
-;FEMSA;Heineken
-;Fuerstenberg Brewery;Heineken
-;Grupo Cruzcampo SA;Heineken
-;Heineken;Heineken
-;John Smiths;Heineken
-;Karlovacko;Heineken
-;Krusovice Brewery;Heineken
-;Lagunitas;Heineken
-;Monteith's;Heineken
-;Murphy's Brewery;Heineken
-;Nigerian Breweries;Heineken
-;Pelforth Brewery;Heineken
-;Sedibeng Brewery;Heineken
-;Skopje Brewery;Heineken
-;Sociedade Central de Cervejas;Heineken
-;Starobrno Brewery;Heineken
-;Tien Giang;Heineken
-;Tui Brewery;Heineken
-;Zagorka Brewery;Heineken
-;Zlaty Bazant Brewery;Heineken
-;Zywiec Brewery;Heineken
-;Kirin;Kirin
-;Jennings Brewery;Marston's
-;Marston's;Marston's
-;Ringwood Brewery;Marston's
-;Wychwood Brewery;Marston's
-;Apatinska Pivara;Molson Coors
-;Cobra Brewery;Molson Coors
-;Coors;Molson Coors
-;Coors UK;Molson Coors
-;Molson;Molson Coors
-;Molson Coors;Molson Coors
-;Staropramen;Molson Coors
-;Thomas Hardy Burtonwood;Molson Coors
-;White Shield / Museum;Molson Coors
-;William Stones Brewery;Molson Coors
-;Boulevard Brewing Company;Moortgat
-;Brasserie d'Achouffe;Moortgat
-;Brewery De Koninck;Moortgat
-;Duvel Moortgat Brewery;Moortgat
-;Liefmans;Moortgat
-;Moortgat;Moortgat
-;Ommegang Brewery;Moortgat
-;Riva Brewery;Moortgat
-;New Belgium;New Belgium
-;North American Breweries;North American Breweries
-;Dortmunder Actien Brauerei;Oetker Group
-;FILLINMOREOETKER;Oetker Group
-;Jever;Oetker Group
-;Oetker Group;Oetker Group
-;Tucher Braeu Fuerth;Oetker Group
-;Pabst Brewing Company;Pabst Brewing Company
-;Browary Lubelskie;Royal Unibrew
-;Hartwall;Royal Unibrew
-;FILLINMORERU;Royal Unibrew
-;Royal Unibrew;Royal Unibrew
-;Backus;SABMiller
-;Birra Peroni;SABMiller
-;Botswana Brewery;SABMiller
-;Carlton & United Breweries;SABMiller
-;Canarias Brewery;SABMiller
-;Castle Brewery;SABMiller
-;Cerveceria Bavaria;SABMiller
-;Cerveceria Hondurena;SABMiller
-;Cerveceria National;SABMiller
-;Crispin Cider Company;SABMiller
-;Dreher Kobanya Brewery;SABMiller
-;Fosters;SABMiller
-;Grolsch;SABMiller
-;Grupo Empresarial Bavaria;SABMiller
-;Henry Weinhard's;SABMiller
-;Intafact Beverages;SABMiller
-;International Breweries Plc;SABMiller
-;Kgalagadi Breweries;SABMiller
-;Kompania Piwowarska;SABMiller
-;La Constancia Brewery;SABMiller
-;Leinenkugel;SABMiller
-;Miller;SABMiller
-;Mozambique Brewery;SABMiller
-;Nile Brewery;SABMiller
-;Plzensky Prazdroj;SABMiller
-;Radegast Brewery;SABMiller
-;SABMiller;SABMiller
-;South African Breweries;SABMiller
-;Southern Sudan Beverages;SABMiller
-;Swaziland Beverages;SABMiller
-;Tanzanian Breweries;SABMiller
-;Ursus Breweries;SABMiller
-;Samuel Smith;Samuel Smith
-;Sapporo;Sapporo
-;Sleeman Brewery;Sapporo
-;Unibroue;Sapporo
-;Upper Canada Brewing Company;Sapporo
-;Sierra Nevada Brewing;Sierra Nevada Brewing
-;Tsingtao;Tsingtao
-;Mendocino;United Breweries Group
-;United Breweries Group;United Breweries Group
-;Charles Wells;Wells and Young's
-;Courage Brewery;Wells and Young's
-;Wells & Young's;Wells and Young's
-;Young's;Wells and Young's
-;Yuengling;Yuengling
+Brewery;Corporation
+AB/InBev;AB / InBev
+Absolut Cut;AB / InBev
+Alexander Keith's Brewery;AB / InBev
+Andes Brewery;AB / InBev
+Antarctica Paulista;AB / InBev
+Apatin Brewery;AB / InBev
+Aqua Fratelli Vita;AB / InBev
+Astika Brewery;AB / InBev
+BagBier;AB / InBev
+Baisha Brewery;AB / InBev
+Bass Brewery;AB / InBev
+Baviera Brewery;AB / InBev
+Beck's Brewery;AB / InBev
+Belle-Vue Brewrey;AB / InBev
+Bergenbier;AB / InBev
+Blue Star;AB / InBev
+Boddingtons Brewery;AB / InBev
+Bohemia Brewery;AB / InBev
+Boomerang Brewery;AB / InBev
+Boorsodi Brewery;AB / InBev
+Brasserie Piedboeuf;AB / InBev
+Budweiser;AB / InBev
+Castlemaine Perkins;AB / InBev
+Cerveceria Boliviana;AB / InBev
+Cerveceria Bucanero;AB / InBev
+Cerveceria Nacional Dominicana;AB / InBev
+Cerveceria y Malteria Quilmes;AB / InBev
+Chernihivske;AB / InBev
+Companhia Cervejaria Brahma;AB / InBev
+Dommelsch Brewrey;AB / InBev
+Goose Island;AB / InBev
+Grupo Modelo;AB / InBev
+Hertog Jan Brewery;AB / InBev
+Hoegaarden Brewery;AB / InBev
+InBev;AB / InBev
+Kamenitza;AB / InBev
+Labatt Brewing Company;AB / InBev
+Lakeport Brewing Company;AB / InBev
+Leffe;AB / InBev
+Loewenbraeu;AB / InBev
+Oland Brewery;AB / InBev
+Oriental Brewery;AB / InBev
+Samlesbury;AB / InBev
+Spaten-Franziskaner-Braeu;AB / InBev
+Stella Artois;AB / InBev
+Trebjesa Brewery;AB / InBev
+United Dutch Breweries;AB / InBev
+Zagrebacka Pivovara;AB / InBev
+Asahi;Asahi
+Angry Orchard;Boston Beer Company
+Boston Beer Company;Boston Beer Company
+Bulmers Ireland;C&C Group
+Hornsby's;C&C Group
+Magners GB;C&C Group
+Shepton Mallet;C&C Group
+Vermont Hard Cider Company;C&C Group
+Wellpark;C&C Group
+Brasseries Du Maroc;Castel
+Kombolcha Brewery;Castel
+Utenos;Carlsberg
+Baltika Brewery;Carlsberg
+Bosman Brewery;Carlsberg
+Carlsberg;Carlsberg
+Feldschlossen Beverages Group;Carlsberg
+Grimbergen Brewery;Carlsberg
+Holsten Brewery;Carlsberg
+Kronenbourg;Carlsberg
+Lvivska Pivovarnya;Carlsberg
+Mythos;Carlsberg
+Saku Brewery;Carlsberg
+Shumensko Brewery;Carlsberg
+Sinebrychoff;Carlsberg
+Slavutych Brewery;Carlsberg
+St. Pauli Brewery;Carlsberg
+Svyturys;Carlsberg
+Tuborg Brewery;Carlsberg
+Wusu Brewery;Carlsberg
+CR Snow;CR Snow
+Craft Brew Alliance;Craft Brew Aliance
+Desnoes and Geddes;Diageo / St. James Gate
+Diageo;Diageo / St. James Gate
+Guinness Ltd.;Diageo / St. James Gate
+Kenya Breweries;Diageo / St. James Gate
+Meta Abo SC;Diageo / St. James Gate
+Namibia Breweries;Diageo / St. James Gate
+Serengeti Breweries;Diageo / St. James Gate
+St. James's Gate;Diageo / St. James Gate
+Uganda Breweries;Diageo / St. James Gate
+Distell;Distell
+Birra Menabrea;Gambrinus
+BridgePort Brewing;Gambrinus
+Gambrinus;Gambrinus
+Spoetzl Brewery;Gambrinus
+Trumer Brauerei Berkeley;Gambrinus
+Genesee Brewing Company;Genesee Brewing Company
+Portland Brewing Company;Genesee Brewing Company
+Pyramid Breweries;Genesee Brewing Company
+Belhaven;Greene King
+Greene King;Greene King
+Greene King Morland Brewery;Greene King
+Ruddles;Greene King
+Affligem Brewery;Heineken
+Al Ahram Brewery;Heineken
+Alken-Maes Brewery;Heineken
+Almaza Brewery;Heineken
+Amstel;Heineken
+Asia Pacific Breweries;Heineken
+Athenian Brewery;Heineken
+Beamish & Crawford;Heineken
+Birra Dreher;Heineken
+Birra Ichnusa;Heineken
+Birra Moretti;Heineken
+Bochkarev;Heineken
+Bralima Brewery;Heineken
+Brand Brewery;Heineken
+Brasserie de Tahiti;Heineken
+Brasserie Fischer;Heineken
+Breznak;Heineken
+Bulmers Cider;Heineken
+Caledonian Brewery;Heineken
+DB Breweries;Heineken
+De Ridder Brewery;Heineken
+FEMSA;Heineken
+Fuerstenberg Brewery;Heineken
+Grupo Cruzcampo SA;Heineken
+Heineken;Heineken
+John Smiths;Heineken
+Karlovacko;Heineken
+Krusovice Brewery;Heineken
+Lagunitas;Heineken
+Monteith's;Heineken
+Murphy's Brewery;Heineken
+Nigerian Breweries;Heineken
+Pelforth Brewery;Heineken
+Sedibeng Brewery;Heineken
+Skopje Brewery;Heineken
+Sociedade Central de Cervejas;Heineken
+Starobrno Brewery;Heineken
+Tien Giang;Heineken
+Tui Brewery;Heineken
+Zagorka Brewery;Heineken
+Zlaty Bazant Brewery;Heineken
+Zywiec Brewery;Heineken
+Kirin;Kirin
+Jennings Brewery;Marston's
+Marston's;Marston's
+Ringwood Brewery;Marston's
+Wychwood Brewery;Marston's
+Apatinska Pivara;Molson Coors
+Cobra Brewery;Molson Coors
+Coors;Molson Coors
+Coors UK;Molson Coors
+Molson;Molson Coors
+Molson Coors;Molson Coors
+Staropramen;Molson Coors
+Thomas Hardy Burtonwood;Molson Coors
+White Shield / Museum;Molson Coors
+William Stones Brewery;Molson Coors
+Boulevard Brewing Company;Moortgat
+Brasserie d'Achouffe;Moortgat
+Brewery De Koninck;Moortgat
+Duvel Moortgat Brewery;Moortgat
+Liefmans;Moortgat
+Moortgat;Moortgat
+Ommegang Brewery;Moortgat
+Riva Brewery;Moortgat
+New Belgium;New Belgium
+North American Breweries;North American Breweries
+Dortmunder Actien Brauerei;Oetker Group
+FILLINMOREOETKER;Oetker Group
+Jever;Oetker Group
+Oetker Group;Oetker Group
+Tucher Braeu Fuerth;Oetker Group
+Pabst Brewing Company;Pabst Brewing Company
+Browary Lubelskie;Royal Unibrew
+Hartwall;Royal Unibrew
+FILLINMORERU;Royal Unibrew
+Royal Unibrew;Royal Unibrew
+Backus;SABMiller
+Birra Peroni;SABMiller
+Botswana Brewery;SABMiller
+Carlton & United Breweries;SABMiller
+Canarias Brewery;SABMiller
+Castle Brewery;SABMiller
+Cerveceria Bavaria;SABMiller
+Cerveceria Hondurena;SABMiller
+Cerveceria National;SABMiller
+Crispin Cider Company;SABMiller
+Dreher Kobanya Brewery;SABMiller
+Fosters;SABMiller
+Grolsch;SABMiller
+Grupo Empresarial Bavaria;SABMiller
+Henry Weinhard's;SABMiller
+Intafact Beverages;SABMiller
+International Breweries Plc;SABMiller
+Kgalagadi Breweries;SABMiller
+Kompania Piwowarska;SABMiller
+La Constancia Brewery;SABMiller
+Leinenkugel;SABMiller
+Miller;SABMiller
+Mozambique Brewery;SABMiller
+Nile Brewery;SABMiller
+Plzensky Prazdroj;SABMiller
+Radegast Brewery;SABMiller
+SABMiller;SABMiller
+South African Breweries;SABMiller
+Southern Sudan Beverages;SABMiller
+Swaziland Beverages;SABMiller
+Tanzanian Breweries;SABMiller
+Ursus Breweries;SABMiller
+Samuel Smith;Samuel Smith
+Anchor;Sapporo
+Sapporo;Sapporo
+Sleeman Brewery;Sapporo
+Unibroue;Sapporo
+Upper Canada Brewing Company;Sapporo
+Sierra Nevada Brewing;Sierra Nevada Brewing
+Tsingtao;Tsingtao
+Mendocino;United Breweries Group
+United Breweries Group;United Breweries Group
+Charles Wells;Wells and Young's
+Courage Brewery;Wells and Young's
+Wells & Young's;Wells and Young's
+Young's;Wells and Young's
+Yuengling;Yuengling
