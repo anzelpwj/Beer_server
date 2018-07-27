@@ -1,0 +1,6 @@
+RatingID;BeerName;Brewery;Type;Origin;HowIDrank;TempIDrank;Taste;Aftertaste;MouthFeel;Rating;Notes;KeepReport;CheckManually;WhyCheckManually;Date
+1;Delerium Tremens;Huyghe Brewery;Belgian Strong Pale Ale;Belgium;Bottle at desk;Cool;Kind of odd;;Front;3;;1;0;;2014-11-01
+2;La Folie;New Belgium;Flanders Oud Bruin;Colorado;Glass at bar;Cool;A bit vinegary;;Front;3.5;;1;0;;2014-11-01
+3;Heavenly Hef;Craftsman;Hefeweizen;California;Glass at bar;Cool;A bit thin;;Front;3;Might be a bad pour;1;0;;2014-11-01
+4;1809 Berliner Weisse;Professor Fritz Briem;Berliner Weissbier;Germany;Bottle in bed;Cool;Uninteresting;Strange;Back;2;;1;0;;2014-11-01
+5;Blackbier;Bier Factory;Dry Stout;Switzerland;;;Very thin, rather unpleasant;;Front;1.5;;1;0;;2014-11-01
