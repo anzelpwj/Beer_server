@@ -52,3 +52,8 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Personal info
+Beers.csv
+Beers2.csv
+
